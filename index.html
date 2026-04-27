@@ -9,7 +9,7 @@
     <header>
       <a href="/">
         <h1>Welcome to MoringaCon 2026</h1>
-        <p>The Ultimate Technology and Programming Conference</p>
+        <p id="header-p">The Ultimate Technology and Programming Conference</p>
       </a>
     </header>
 
@@ -23,7 +23,7 @@
 
     <!-- about section -->
     <section id="about">
-      <h2>About the Event</h2>
+      <h2 id="event_h2">About the Event</h2>
       <p>
         MoringaCon 2026 brings together leading minds in programming, tech and
         innovation. Join us for a day of insightful talks, hands-on workshops,
@@ -119,11 +119,12 @@
 
         <!-- message input -->
         <label for="message">Message:</label><br />
-        <textarea name="message" id="message" rows="4"></textarea><br><br>
+        <textarea name="message" id="message" rows="4"></textarea><br /><br />
 
-        <button type="submit">Send</button>
-
+        <button type="submit" id="submit-button">Send</button>
       </form>
     </section>
+
+    <script src="code.js" defer></script>
   </body>
 </html>
